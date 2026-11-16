@@ -1,0 +1,11 @@
+{
+  "name": "xn-streets-unleashed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XN: STREETS UNLEASHED - a Three.js open-world driving and action game",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npm run build && npx serve dist"
+  },
+  "engines": { "node": ">=18" }
+}
